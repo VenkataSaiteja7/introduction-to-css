@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Floating</title>
+	<meta charset="utf-8">
+	<style>
+		h1 {
+			text-align: center;
+		}
+		img.rot {
+			float: right;
+		}
+		div.roc {
+			border: 4px dashed orange; 
+		}
+
+		img {
+			float: left;
+			}
+		div {
+			border: 4px solid lightblue;
+			overflow: auto;
+		}
+
+		img.not {
+			float: right;
+		}
+
+		div.sec {
+			border: 4px dotted green;
+			overflow-wrap: auto;
+		}
+		img.kot {
+			float: none;
+		}
+
+		div.nic {
+			border: 4px dashed red;
+			overflow-wrap: auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="roc">
+		<h1>This is floating</h1>
+		
+		<img class="rot" src="https://media.gettyimages.com/photos/woman-lifts-her-arms-in-victory-mount-everest-national-park-picture-id507910624?s=2048x2048" width="170" height="170" margin-left:15px;>
+		<p>In this example, the image will float to the right in the paragraph, and the text in the paragraph will wrap around the image.</p>
+	</div>
+	 <div>
+	 	<p>
+	 		<img src="https://st.depositphotos.com/1050689/2099/i/950/depositphotos_20990611-stock-photo-pineapple-isolated.jpg" alt="Pineapple" style="width:170px;height:170px;margin-left:15px;">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+	   </p>
+   </div>
+   <div class="sec">
+	 	<p>
+	 		<img class="not" 	src="https://st.depositphotos.com/1050689/2099/i/950/depositphotos_20990611-stock-photo-pineapple-isolated.jpg" alt="Pineapple" style="width:170px;height:170px;margin-left:15px;">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. 
+	   </p>
+   </div>
+   <div class="nic">
+	 	<p>
+	 		<img class="kot" 	src="https://st.depositphotos.com/1050689/2099/i/950/depositphotos_20990611-stock-photo-pineapple-isolated.jpg" alt="Pineapple" style="width:170px;height:170px;margin-left:15px;">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. 
+	   </p>
+   </div>
+</body>
+</html>
